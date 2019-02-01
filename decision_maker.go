@@ -470,7 +470,7 @@ func getTLSFlags(r *release) string {
 // getDryRunFlags returns dry-run flag
 func getDryRunFlags() string {
 	if dryRun {
-		return " --dry-run --debug "
+		return " --dry-run "
 	}
 	return ""
 }
